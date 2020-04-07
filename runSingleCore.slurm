@@ -6,7 +6,6 @@
 #SBATCH --mem-per-cpu=1024
 #SBATCH --partition=all
 #SBATCH --output=slurmOut/%A-%a.out
-#SBATCH --exclude=s7cfd13
 #SBATCH --mail-type=NONE
 
 echo "$SHELL"
