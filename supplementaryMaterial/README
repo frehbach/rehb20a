@@ -1,0 +1,51 @@
+The supplementary material of this work includes the following Figures and Tables:
+-convergenceMlrOnBBOB.pdf
+	Convergence plots of SBO-EI and SBO-PV on all 24 BBOB functions. 
+	Experiments are run with the implementations of the R-Package MlrMBO. 
+	The experiments are run (from left to right) on 2,3,5, and 10 input-dimensions. 
+	The y-Axis shows the best so far achieved objective function value on a logarithmic scale. 
+	The center line indicates the median of the algorithm repeats. 
+	The surrounding ribbon marks the lower and upper quartiles.
+	Y-Values measure difference from the global function optimum.
+-convergenceSpotOnBBOB.pdf
+	Convergence plots of SBO-EI and SBO-PV on all 24 BBOB functions. 
+	Experiments are run with the implementations of the R-Package SPOT. 
+	Random search added as baseline. The experiments are run (from left to right) on 2,3,5, and 10 input-dimensions. 
+	The y-Axis shows the best so far achieved objective function value on a logarithmic scale. 
+	The center line indicates the median of the algorithm repeats. 
+	The surrounding ribbon marks the lower and upper quartiles.
+	Y-Values measure difference from the global function optimum.
+-pathDistanceMLRonBBOB.pdf
+	Distance Measurement of proposed candidate solutions during optimization to their nearest neighbor. 
+	Experiments are run with the implementations of the R-Package MlrMBO. 
+	The y-Axis shows the measured euclidean distance. 
+	The experiments are run (from left to right) on 2,3,5, and 10 input-dimensions. 
+	The center line indicates the median of the algorithm repeats. 
+	The surrounding ribbon marks the lower and upper quartiles.
+-pathDistanceSPOTonBBOB.pdf
+	Distance Measurement of proposed candidate solutions during optimization to their nearest neighbor. 
+	Experiments are run with the implementations of the R-Package SPOT. 
+	The y-Axis shows the measured euclidean distance. 
+	The experiments are run (from left to right) on 2,3,5, and 10 input-dimensions. 
+	The center line indicates the median of the algorithm repeats. 
+	The surrounding ribbon marks the lower and upper quartiles.
+-surveyOfFrameworks.pdf
+	Overview of surveyed SBO frameworks. 
+	The table shows the respective framework name, programming language and default infill criterion. 
+	(Expected Improvement - EI, Predicted Value - PV, Upper/Lower Confidence Bound - CB, PI - Probability of Improvement). 
+	This is followed by information whether EI/PV or other criteria are choosable, even if not as default setting.
+-tilesMlr.pdf
+	Statistical analysis of difference in performance between SBO-EI vs. SBO-PV. 
+	Experiments are run with the implementations of the R-Package MlrMBO. 
+	Y-Axis shows the BBOB-function index. 
+	Colors indicate which infill criterion performed better in each case, based on the statistical test procedure. 
+	No-Fill indicates that there was no significant difference found.
+	The results are presented for the 2,3,5 and 10 dimensional BBOB-function set as indicated to the right of each plot.
+-tilesSPOT.pdf
+	Statistical analysis of difference in performance between SBO-EI vs. SBO-PV. 
+	Experiments are run with the implementations of the R-Package SPOT. 
+	Y-Axis shows the BBOB-function index. 
+	Colors indicate which infill criterion performed better in each case, based on the statistical test procedure. 
+	No-Fill indicates that there was no significant difference found.
+	The results are presented for the 2,3,5 and 10 dimensional BBOB-function set as indicated to the right of each plot.
+	
